@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{019CBD5D-BAD2-475D-94FD-B3078CFA6A63}</ProjectGuid>
+    <ProjectGuid>{8DA37013-81CF-422D-B7FB-C84271609C58}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Process</RootNamespace>
+    <RootNamespace>Mutex</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,7 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="Mutex.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

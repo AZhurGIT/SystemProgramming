@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{019CBD5D-BAD2-475D-94FD-B3078CFA6A63}</ProjectGuid>
+    <ProjectGuid>{F47649ED-F58C-46DA-9A98-4D816198D6C6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Process</RootNamespace>
+    <RootNamespace>SharedMemory1</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,7 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="SharedMemory1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

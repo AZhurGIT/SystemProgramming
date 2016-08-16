@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{019CBD5D-BAD2-475D-94FD-B3078CFA6A63}</ProjectGuid>
+    <ProjectGuid>{B56C86A3-0F15-48F8-9E1A-14764B098B3F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Process</RootNamespace>
+    <RootNamespace>ChildProc</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,7 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="ChildProc.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
